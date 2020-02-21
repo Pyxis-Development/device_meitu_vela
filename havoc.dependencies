@@ -1,0 +1,8 @@
+[
+  {
+    "remote":      "github",
+    "repository":  "Mashopy/device_xiaomi_pyxis",
+    "target_path": "device/xiaomi/pyxis",
+    "branch":      "ten"
+  }
+]
