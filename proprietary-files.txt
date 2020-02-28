@@ -1958,11 +1958,7 @@ vendor/etc/camera_material/selfiepano/8.png
 vendor/etc/camera_material/selfiepano/9.png
 vendor/etc/camera_material/selfiepano/ic_left.png
 vendor/etc/camera_material/selfiepano/ic_right.png
-vendor/etc/device_features/vela.xml
 vendor/etc/init/vendor.meitu.hardware.camsys@1.0-service.rc
-vendor/etc/dsi_ss_ea8076_fhd_cmd_display_f3m_mi.xml
-vendor/firmware/wlan/qca_cld/WCNSS_qcom_cfg.ini
-vendor/firmware/wlan/qca_cld/wlan_mac.bin
 vendor/lib/camera/components/com.meitu.node.mtBeauty.so
 vendor/lib/camera/components/com.meitu.node.offlinereproc.so
 vendor/lib/camera/components/com.qti.node.dummybokeh.so
@@ -1973,15 +1969,8 @@ vendor/lib/camera/components/com.qti.node.remosaic.so
 vendor/lib/camera/components/com.qti.node.singlebokeh.so
 vendor/lib/camera/components/libcam_mttouchgamma.so
 vendor/lib/hw/vendor.meitu.hardware.camsys@1.0-impl.so
-vendor/lib/CFR_para.bin
-vendor/lib/libBlendScreen.so
 vendor/lib/libcam_meitu.so
-vendor/lib/libEGL_adreno.so
 vendor/lib/libffmpeg.so
-vendor/lib/libGetExposureValue.so
-vendor/lib/libgnustl_shared.so
-vendor/lib/libHDRI.so
-vendor/lib/libManis.so
 vendor/lib/libmeitucapture.so
 vendor/lib/libMeituColorSystem.so
 vendor/lib/libMeituColorSystem3DLut.so
@@ -2000,16 +1989,34 @@ vendor/lib/libmtnn.so
 vendor/lib/libmtphotosegment.so
 vendor/lib/libMTSkin.so
 vendor/lib/libmtvenom.so
-vendor/lib/liborb.so
 vendor/lib/libPathBlur.so
-vendor/lib/libq3dtools_adreno.so
 vendor/lib/libremosaiclib.so
 vendor/lib/libremosaic_daemon.so
 vendor/lib/libstdc++.so
 vendor/lib/mibokeh_710_opencl.bin
 vendor/lib/vendor.meitu.hardware.camsys@1.0.so
-vendor/lib64/libEGL_adreno.so
 vendor/lib64/libMTChromaNR.so
-vendor/lib64/libq3dtools_adreno.so
 vendor/lib64/libremosaiclib.so
 vendor/lib64/libremosaic_daemon.so
+
+# Display
+vendor/etc/dsi_ss_ea8076_fhd_cmd_display_f3m_mi.xml
+
+# Graphics
+vendor/lib/libEGL_adreno.so
+vendor/lib/libq3dtools_adreno.so
+vendor/lib64/libEGL_adreno.so
+vendor/lib64/libq3dtools_adreno.so
+
+# Misc
+vendor/lib/CFR_para.bin
+vendor/lib/libBlendScreen.so
+vendor/lib/libGetExposureValue.so
+vendor/lib/libgnustl_shared.so
+vendor/lib/libHDRI.so
+vendor/lib/libManis.so
+vendor/lib/liborb.so
+
+# Wlan-firmware
+vendor/firmware/wlan/qca_cld/WCNSS_qcom_cfg.ini
+vendor/firmware/wlan/qca_cld/wlan_mac.bin
