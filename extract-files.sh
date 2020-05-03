@@ -15,7 +15,7 @@ set -e
 
 # Required!
 export DEVICE=vela
-export DEVICE_COMMON=pyxis
+export DEVICE_COMMON=pyxis-common
 export VENDOR=meitu
 
 export DEVICE_BRINGUP_YEAR=2019
